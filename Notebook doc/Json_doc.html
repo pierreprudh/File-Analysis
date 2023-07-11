@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Json_doc</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Json_doc</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cpprudhom%5Cdocuments%5Cdocumentatio%20json%5Cjson_doc.py">c:\users\pprudhom\documents\documentatio json\json_doc.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;coding:&nbsp;utf-8</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="json.html">json</a><br>
+<a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+<a href="pandas.html">pandas</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+<a href="scipy.stats.html">scipy.stats</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="fpdf.fpdf.html#FPDF">fpdf.fpdf.FPDF</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Json_doc.html#PDF">PDF</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PDF">class <strong>PDF</strong></a>(<a href="fpdf.fpdf.html#FPDF">fpdf.fpdf.FPDF</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#PDF">PDF</a>(orientation='P',&nbsp;unit='mm',&nbsp;format='A4')<br>
+&nbsp;<br>
+Classe&nbsp;<a href="#PDF">PDF</a>&nbsp;étendue&nbsp;pour&nbsp;la&nbsp;création&nbsp;de&nbsp;fichiers&nbsp;<a href="#PDF">PDF</a>&nbsp;personnalisés.<br>
+&nbsp;<br>
+Cette&nbsp;classe&nbsp;hérite&nbsp;de&nbsp;la&nbsp;classe&nbsp;<a href="fpdf.fpdf.html#FPDF">FPDF</a>&nbsp;du&nbsp;module&nbsp;fpdf.<br>
+&nbsp;<br>
+Méthodes&nbsp;spéciales&nbsp;:<br>
+-&nbsp;<a href="#PDF-header">header</a>()&nbsp;:&nbsp;Définit&nbsp;le&nbsp;contenu&nbsp;de&nbsp;l'en-tête&nbsp;du&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>
+-&nbsp;<a href="#PDF-footer">footer</a>()&nbsp;:&nbsp;Définit&nbsp;le&nbsp;contenu&nbsp;du&nbsp;pied&nbsp;de&nbsp;page&nbsp;du&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>
+&nbsp;<br>
+Méthodes&nbsp;personnalisées&nbsp;:<br>
+-&nbsp;<a href="#PDF-chapter_title">chapter_title</a>(title)&nbsp;:&nbsp;Ajoute&nbsp;un&nbsp;titre&nbsp;de&nbsp;chapitre&nbsp;au&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>
+-&nbsp;<a href="#PDF-chapter_body">chapter_body</a>(content)&nbsp;:&nbsp;Ajoute&nbsp;le&nbsp;contenu&nbsp;d'un&nbsp;chapitre&nbsp;au&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="Json_doc.html#PDF">PDF</a></dd>
+<dd><a href="fpdf.fpdf.html#FPDF">fpdf.fpdf.FPDF</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="PDF-chapter_body"><strong>chapter_body</strong></a>(self, content)</dt><dd><tt>Ajoute&nbsp;le&nbsp;contenu&nbsp;d'un&nbsp;chapitre&nbsp;au&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;content&nbsp;:&nbsp;str&nbsp;:&nbsp;Le&nbsp;contenu&nbsp;du&nbsp;chapitre.</tt></dd></dl>
+
+<dl><dt><a name="PDF-chapter_title"><strong>chapter_title</strong></a>(self, title)</dt><dd><tt>Ajoute&nbsp;un&nbsp;titre&nbsp;de&nbsp;chapitre&nbsp;au&nbsp;document&nbsp;<a href="#PDF">PDF</a>.<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;title&nbsp;:&nbsp;str&nbsp;:&nbsp;Le&nbsp;titre&nbsp;du&nbsp;chapitre.</tt></dd></dl>
+
+<dl><dt><a name="PDF-footer"><strong>footer</strong></a>(self)</dt><dd><tt>Définit&nbsp;le&nbsp;contenu&nbsp;du&nbsp;pied&nbsp;de&nbsp;page&nbsp;du&nbsp;document&nbsp;<a href="#PDF">PDF</a>.</tt></dd></dl>
+
+<dl><dt><a name="PDF-header"><strong>header</strong></a>(self)</dt><dd><tt>Définit&nbsp;le&nbsp;contenu&nbsp;de&nbsp;l'en-tête&nbsp;du&nbsp;document&nbsp;<a href="#PDF">PDF</a>.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="fpdf.fpdf.html#FPDF">fpdf.fpdf.FPDF</a>:<br>
+<dl><dt><a name="PDF-__init__"><strong>__init__</strong></a>(self, orientation='P', unit='mm', format='A4')</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="PDF-accept_page_break"><strong>accept_page_break</strong></a>(self)</dt><dd><tt>Accept&nbsp;automatic&nbsp;page&nbsp;break&nbsp;or&nbsp;not</tt></dd></dl>
+
+<dl><dt><a name="PDF-add_font"><strong>add_font</strong></a>(self, family, style='', fname='', uni=False)</dt><dd><tt>Add&nbsp;a&nbsp;TrueType&nbsp;or&nbsp;Type1&nbsp;font</tt></dd></dl>
+
+<dl><dt><a name="PDF-add_link"><strong>add_link</strong></a>(self)</dt><dd><tt>Create&nbsp;a&nbsp;new&nbsp;internal&nbsp;link</tt></dd></dl>
+
+<dl><dt><a name="PDF-add_page"><strong>add_page</strong></a>(self, orientation='')</dt><dd><tt>Start&nbsp;a&nbsp;new&nbsp;page</tt></dd></dl>
+
+<dl><dt><a name="PDF-alias_nb_pages"><strong>alias_nb_pages</strong></a>(self, alias='{nb}')</dt><dd><tt>Define&nbsp;an&nbsp;alias&nbsp;for&nbsp;total&nbsp;number&nbsp;of&nbsp;pages</tt></dd></dl>
+
+<dl><dt><a name="PDF-cell"><strong>cell</strong></a>(self, w, h=0, txt='', border=0, ln=0, align='', fill=0, link='')</dt><dd><tt>Output&nbsp;a&nbsp;cell</tt></dd></dl>
+
+<dl><dt><a name="PDF-check_page"><strong>check_page</strong></a>(fn)</dt><dd><tt>Decorator&nbsp;to&nbsp;protect&nbsp;drawing&nbsp;methods</tt></dd></dl>
+
+<dl><dt><a name="PDF-close"><strong>close</strong></a>(self)</dt><dd><tt>Terminate&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-code39"><strong>code39</strong></a>(self, txt, x, y, w=1.5, h=5.0)</dt><dd><tt>Barcode&nbsp;3of9</tt></dd></dl>
+
+<dl><dt><a name="PDF-dashed_line"><strong>dashed_line</strong></a>(self, x1, y1, x2, y2, dash_length=1, space_length=1)</dt><dd><tt>Draw&nbsp;a&nbsp;dashed&nbsp;line.&nbsp;Same&nbsp;interface&nbsp;as&nbsp;<a href="#PDF-line">line</a>()&nbsp;except:<br>
+-&nbsp;dash_length:&nbsp;Length&nbsp;of&nbsp;the&nbsp;dash<br>
+-&nbsp;space_length:&nbsp;Length&nbsp;of&nbsp;the&nbsp;space&nbsp;between&nbsp;dashes</tt></dd></dl>
+
+<dl><dt><a name="PDF-ellipse"><strong>ellipse</strong></a>(self, x, y, w, h, style='')</dt><dd><tt>Draw&nbsp;a&nbsp;ellipse</tt></dd></dl>
+
+<dl><dt><a name="PDF-error"><strong>error</strong></a>(self, msg)</dt><dd><tt>Fatal&nbsp;error</tt></dd></dl>
+
+<dl><dt><a name="PDF-get_string_width"><strong>get_string_width</strong></a>(self, s)</dt><dd><tt>Get&nbsp;width&nbsp;of&nbsp;a&nbsp;string&nbsp;in&nbsp;the&nbsp;current&nbsp;font</tt></dd></dl>
+
+<dl><dt><a name="PDF-get_x"><strong>get_x</strong></a>(self)</dt><dd><tt>Get&nbsp;x&nbsp;position</tt></dd></dl>
+
+<dl><dt><a name="PDF-get_y"><strong>get_y</strong></a>(self)</dt><dd><tt>Get&nbsp;y&nbsp;position</tt></dd></dl>
+
+<dl><dt><a name="PDF-image"><strong>image</strong></a>(self, name, x=None, y=None, w=0, h=0, type='', link='')</dt><dd><tt>Put&nbsp;an&nbsp;image&nbsp;on&nbsp;the&nbsp;page</tt></dd></dl>
+
+<dl><dt><a name="PDF-interleaved2of5"><strong>interleaved2of5</strong></a>(self, txt, x, y, w=1.0, h=10.0)</dt><dd><tt>Barcode&nbsp;I2of5&nbsp;(numeric),&nbsp;adds&nbsp;a&nbsp;0&nbsp;if&nbsp;odd&nbsp;lenght</tt></dd></dl>
+
+<dl><dt><a name="PDF-line"><strong>line</strong></a>(self, x1, y1, x2, y2)</dt><dd><tt>Draw&nbsp;a&nbsp;line</tt></dd></dl>
+
+<dl><dt><a name="PDF-link"><strong>link</strong></a>(self, x, y, w, h, link)</dt><dd><tt>Put&nbsp;a&nbsp;link&nbsp;on&nbsp;the&nbsp;page</tt></dd></dl>
+
+<dl><dt><a name="PDF-ln"><strong>ln</strong></a>(self, h='')</dt><dd><tt>Line&nbsp;Feed;&nbsp;default&nbsp;value&nbsp;is&nbsp;last&nbsp;cell&nbsp;height</tt></dd></dl>
+
+<dl><dt><a name="PDF-multi_cell"><strong>multi_cell</strong></a>(self, w, h, txt='', border=0, align='J', fill=0, split_only=False)</dt><dd><tt>Output&nbsp;text&nbsp;with&nbsp;automatic&nbsp;or&nbsp;explicit&nbsp;line&nbsp;breaks</tt></dd></dl>
+
+<dl><dt><a name="PDF-normalize_text"><strong>normalize_text</strong></a>(self, txt)</dt><dd><tt>Check&nbsp;that&nbsp;text&nbsp;input&nbsp;is&nbsp;in&nbsp;the&nbsp;correct&nbsp;format/encoding</tt></dd></dl>
+
+<dl><dt><a name="PDF-open"><strong>open</strong></a>(self)</dt><dd><tt>Begin&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-output"><strong>output</strong></a>(self, name='', dest='')</dt><dd><tt>Output&nbsp;<a href="#PDF">PDF</a>&nbsp;to&nbsp;some&nbsp;destination</tt></dd></dl>
+
+<dl><dt><a name="PDF-page_no"><strong>page_no</strong></a>(self)</dt><dd><tt>Get&nbsp;current&nbsp;page&nbsp;number</tt></dd></dl>
+
+<dl><dt><a name="PDF-rect"><strong>rect</strong></a>(self, x, y, w, h, style='')</dt><dd><tt>Draw&nbsp;a&nbsp;rectangle</tt></dd></dl>
+
+<dl><dt><a name="PDF-rotate"><strong>rotate</strong></a>(self, angle, x=None, y=None)</dt></dl>
+
+<dl><dt><a name="PDF-set_author"><strong>set_author</strong></a>(self, author)</dt><dd><tt>Author&nbsp;of&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_auto_page_break"><strong>set_auto_page_break</strong></a>(self, auto, margin=0)</dt><dd><tt>Set&nbsp;auto&nbsp;page&nbsp;break&nbsp;mode&nbsp;and&nbsp;triggering&nbsp;margin</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_compression"><strong>set_compression</strong></a>(self, compress)</dt><dd><tt>Set&nbsp;page&nbsp;compression</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_creator"><strong>set_creator</strong></a>(self, creator)</dt><dd><tt>Creator&nbsp;of&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_display_mode"><strong>set_display_mode</strong></a>(self, zoom, layout='continuous')</dt><dd><tt>Set&nbsp;display&nbsp;mode&nbsp;in&nbsp;viewer<br>
+&nbsp;<br>
+The&nbsp;"zoom"&nbsp;argument&nbsp;may&nbsp;be&nbsp;'fullpage',&nbsp;'fullwidth',&nbsp;'real',<br>
+'default',&nbsp;or&nbsp;a&nbsp;number,&nbsp;interpreted&nbsp;as&nbsp;a&nbsp;percentage.</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_draw_color"><strong>set_draw_color</strong></a>(self, r, g=-1, b=-1)</dt><dd><tt>Set&nbsp;color&nbsp;for&nbsp;all&nbsp;stroking&nbsp;operations</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_fill_color"><strong>set_fill_color</strong></a>(self, r, g=-1, b=-1)</dt><dd><tt>Set&nbsp;color&nbsp;for&nbsp;all&nbsp;filling&nbsp;operations</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_font"><strong>set_font</strong></a>(self, family, style='', size=0)</dt><dd><tt>Select&nbsp;a&nbsp;font;&nbsp;size&nbsp;given&nbsp;in&nbsp;points</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_font_size"><strong>set_font_size</strong></a>(self, size)</dt><dd><tt>Set&nbsp;font&nbsp;size&nbsp;in&nbsp;points</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_keywords"><strong>set_keywords</strong></a>(self, keywords)</dt><dd><tt>Keywords&nbsp;of&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_left_margin"><strong>set_left_margin</strong></a>(self, margin)</dt><dd><tt>Set&nbsp;left&nbsp;margin</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_line_width"><strong>set_line_width</strong></a>(self, width)</dt><dd><tt>Set&nbsp;line&nbsp;width</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_link"><strong>set_link</strong></a>(self, link, y=0, page=-1)</dt><dd><tt>Set&nbsp;destination&nbsp;of&nbsp;internal&nbsp;link</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_margins"><strong>set_margins</strong></a>(self, left, top, right=-1)</dt><dd><tt>Set&nbsp;left,&nbsp;top&nbsp;and&nbsp;right&nbsp;margins</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_right_margin"><strong>set_right_margin</strong></a>(self, margin)</dt><dd><tt>Set&nbsp;right&nbsp;margin</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_subject"><strong>set_subject</strong></a>(self, subject)</dt><dd><tt>Subject&nbsp;of&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_text_color"><strong>set_text_color</strong></a>(self, r, g=-1, b=-1)</dt><dd><tt>Set&nbsp;color&nbsp;for&nbsp;text</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_title"><strong>set_title</strong></a>(self, title)</dt><dd><tt>Title&nbsp;of&nbsp;document</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_top_margin"><strong>set_top_margin</strong></a>(self, margin)</dt><dd><tt>Set&nbsp;top&nbsp;margin</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_x"><strong>set_x</strong></a>(self, x)</dt><dd><tt>Set&nbsp;x&nbsp;position</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_xy"><strong>set_xy</strong></a>(self, x, y)</dt><dd><tt>Set&nbsp;x&nbsp;and&nbsp;y&nbsp;positions</tt></dd></dl>
+
+<dl><dt><a name="PDF-set_y"><strong>set_y</strong></a>(self, y)</dt><dd><tt>Set&nbsp;y&nbsp;position&nbsp;and&nbsp;reset&nbsp;x</tt></dd></dl>
+
+<dl><dt><a name="PDF-text"><strong>text</strong></a>(self, x, y, txt='')</dt><dd><tt>Output&nbsp;a&nbsp;string</tt></dd></dl>
+
+<dl><dt><a name="PDF-write"><strong>write</strong></a>(self, h, txt='', link='')</dt><dd><tt>Output&nbsp;text&nbsp;in&nbsp;flowing&nbsp;mode</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="fpdf.fpdf.html#FPDF">fpdf.fpdf.FPDF</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-convert_to_builtin_type"><strong>convert_to_builtin_type</strong></a>(obj)</dt><dd><tt>Convertit&nbsp;les&nbsp;types&nbsp;d'objets&nbsp;personnalisés&nbsp;en&nbsp;types&nbsp;JSON&nbsp;sérialisables.<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;obj&nbsp;:&nbsp;object&nbsp;:&nbsp;L'objet&nbsp;à&nbsp;convertir.<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;object&nbsp;:&nbsp;L'objet&nbsp;converti.<br>
+&nbsp;<br>
+Raises&nbsp;:<br>
+-&nbsp;TypeError&nbsp;:&nbsp;Si&nbsp;l'objet&nbsp;n'est&nbsp;pas&nbsp;sérialisable&nbsp;en&nbsp;JSON.</tt></dd></dl>
+ <dl><dt><a name="-create_pdf_from_json"><strong>create_pdf_from_json</strong></a>(json_data, output_file, file_name)</dt><dd><tt>Crée&nbsp;un&nbsp;fichier&nbsp;<a href="#PDF">PDF</a>&nbsp;à&nbsp;partir&nbsp;des&nbsp;données&nbsp;JSON&nbsp;fournies.<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;json_data&nbsp;:&nbsp;str&nbsp;:&nbsp;Les&nbsp;données&nbsp;JSON&nbsp;au&nbsp;format&nbsp;texte.<br>
+-&nbsp;output_file&nbsp;:&nbsp;str&nbsp;:&nbsp;Le&nbsp;nom&nbsp;du&nbsp;fichier&nbsp;<a href="#PDF">PDF</a>&nbsp;de&nbsp;sortie.<br>
+-&nbsp;file_name&nbsp;:&nbsp;str&nbsp;:&nbsp;Le&nbsp;nom&nbsp;du&nbsp;fichier&nbsp;d'origine.<br>
+&nbsp;<br>
+Cette&nbsp;fonction&nbsp;crée&nbsp;un&nbsp;fichier&nbsp;<a href="#PDF">PDF</a>&nbsp;à&nbsp;partir&nbsp;des&nbsp;données&nbsp;JSON&nbsp;fournies.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;.pdf:&nbsp;un&nbsp;pdf&nbsp;contenant&nbsp;les&nbsp;informations&nbsp;du&nbsp;json.</tt></dd></dl>
+ <dl><dt><a name="-doc_json"><strong>doc_json</strong></a>(file, sep=',', ID='')</dt><dd><tt>Convertit&nbsp;un&nbsp;fichier&nbsp;CSV&nbsp;ou&nbsp;Excel&nbsp;en&nbsp;un&nbsp;format&nbsp;JSON&nbsp;contenant&nbsp;des&nbsp;informations&nbsp;statistiques&nbsp;sur&nbsp;les&nbsp;variables.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;file&nbsp;(str):&nbsp;Chemin&nbsp;du&nbsp;fichier&nbsp;à&nbsp;convertir.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;sep&nbsp;(str,&nbsp;optional):&nbsp;Délimiteur&nbsp;utilisé&nbsp;pour&nbsp;les&nbsp;fichiers&nbsp;CSV.&nbsp;Par&nbsp;défaut,&nbsp;','.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ID&nbsp;(str&nbsp;or&nbsp;list,&nbsp;optional):&nbsp;Colonne(s)&nbsp;utilisée(s)&nbsp;comme&nbsp;identifiant(s).&nbsp;Par&nbsp;défaut,&nbsp;''.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;dict:&nbsp;Un&nbsp;dictionnaire&nbsp;JSON&nbsp;contenant&nbsp;les&nbsp;informations&nbsp;statistiques&nbsp;sur&nbsp;les&nbsp;variables&nbsp;du&nbsp;fichier.<br>
+&nbsp;<br>
+Raises:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TypeError:&nbsp;Si&nbsp;le&nbsp;fichier&nbsp;n'est&nbsp;pas&nbsp;au&nbsp;format&nbsp;CSV&nbsp;ou&nbsp;Excel.</tt></dd></dl>
+ <dl><dt><a name="-format_json"><strong>format_json</strong></a>(json_data)</dt><dd><tt>Formate&nbsp;le&nbsp;contenu&nbsp;JSON&nbsp;pour&nbsp;une&nbsp;meilleure&nbsp;lisibilité.<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;json_data&nbsp;:&nbsp;dict&nbsp;:&nbsp;Les&nbsp;données&nbsp;JSON&nbsp;à&nbsp;formater.<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;str&nbsp;:&nbsp;Le&nbsp;contenu&nbsp;JSON&nbsp;formaté.</tt></dd></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>()</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>formatted_json</strong> = '{<font color="#c040c0">\n</font>    <font color="#c040c0">\n</font>    "file_properties": {<font color="#c040c0">\n</font>        <font color="#c040c0">\n</font>       ... "type": "int64"<font color="#c040c0">\n</font>        <font color="#c040c0">\n</font>        }<font color="#c040c0">\n</font>    <font color="#c040c0">\n</font>    }<font color="#c040c0">\n\n</font>}'<br>
+<strong>result</strong> = {'file_properties': {'Missing values': 20840, 'Nombre de lignes': 41701, 'date': '05-07-2023', 'file_name': 'fr-en-ips_colleges.csv'}, 'variables': {'Académie': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'Code INSEE de la commune': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'Code du département': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'Département': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, "Ecart-type de l'IPS": {'missing values': 20840, 'missing values percent column': 49.97482074770389, 'missing values percent total': 100, 'statistics': {'max': 87.7, 'mean': 33.00131345573079, 'min': 0.0, 'outliers': 0, 'q1': nan, 'q3': nan, 'shapiro_pvalue': 1.0, 'shapiro_statistic': nan, 'std': 4.240587464442733}, 'type': 'float64'}, 'IPS': {'missing values': 0, 'missing values percent column': 0.0, 'missing values percent total': 0, 'statistics': {'max': 157.6, 'mean': 102.78377736744922, 'min': 47.5, 'outliers': 852, 'q1': 92.6, 'q3': 112.8, 'shapiro_pvalue': 2.625451057261431e-32, 'shapiro_statistic': 0.9956019520759583, 'std': 16.678368123039768}, 'type': 'float64'}, "Nom de l'établissment": {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'Nom de la commune': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'Rentrée scolaire': {'&gt;10% appearance': {'2016-2017': 16.63, '2017-2018': 16.68, '2018-2019': 16.67, '2019-2020': 16.66, '2020-2021': 16.67, '2021-2022': 16.7}, 'missing_values': 0, 'type': 'object'}, 'Secteur': {'&gt;10% appearance': {'privé sous contrat': 23.86, 'public': 76.14}, 'missing_values': 0, 'type': 'object'}, ...}}</td></tr></table>
+</body></html>

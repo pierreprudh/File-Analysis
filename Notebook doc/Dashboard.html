@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Dashboard</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Dashboard</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cpprudhom%5Cdocuments%5Cdocumentatio%20json%5Cdashboard.py">c:\users\pprudhom\documents\documentatio json\dashboard.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;coding:&nbsp;utf-8</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="pandas.html">pandas</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-binary_graph"><strong>binary_graph</strong></a>(data)</dt><dd><tt>Prépare&nbsp;les&nbsp;graphiques&nbsp;de&nbsp;type&nbsp;binaires<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;data&nbsp;:&nbsp;les&nbsp;données&nbsp;en&nbsp;format&nbsp;json.&nbsp;<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;plots&nbsp;:&nbsp;Les&nbsp;graphes&nbsp;en&nbsp;barre&nbsp;binaires&nbsp;préparés.<br>
+-&nbsp;title&nbsp;:&nbsp;Le&nbsp;titre&nbsp;de&nbsp;la&nbsp;catégorie.</tt></dd></dl>
+ <dl><dt><a name="-dashboard"><strong>dashboard</strong></a>(data)</dt><dd><tt>Renvoie&nbsp;un&nbsp;dashboard&nbsp;préparéavec&nbsp;les&nbsp;fonctions&nbsp;des&nbsp;graphes&nbsp;précédentes<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;data&nbsp;:&nbsp;les&nbsp;données&nbsp;en&nbsp;format&nbsp;json.&nbsp;<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;dashboard&nbsp;:&nbsp;le&nbsp;dashboard&nbsp;du&nbsp;fichier&nbsp;passé</tt></dd></dl>
+ <dl><dt><a name="-date_tab"><strong>date_tab</strong></a>(data)</dt><dd><tt>Prépare&nbsp;les&nbsp;graphiques&nbsp;des&nbsp;données&nbsp;de&nbsp;type&nbsp;date<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;data&nbsp;:&nbsp;les&nbsp;données&nbsp;en&nbsp;format&nbsp;json.&nbsp;<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;plots&nbsp;:&nbsp;Les&nbsp;graphes&nbsp;en&nbsp;barre&nbsp;binaires&nbsp;préparés.<br>
+-&nbsp;title&nbsp;:&nbsp;Le&nbsp;titre&nbsp;de&nbsp;la&nbsp;catégorie.</tt></dd></dl>
+ <dl><dt><a name="-id_graph"><strong>id_graph</strong></a>(data)</dt><dd><tt>Prépare&nbsp;les&nbsp;graphiques&nbsp;de&nbsp;type&nbsp;identifiant<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;data&nbsp;:&nbsp;les&nbsp;données&nbsp;en&nbsp;format&nbsp;json.&nbsp;<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;plots&nbsp;:&nbsp;Les&nbsp;graphes&nbsp;en&nbsp;barre&nbsp;binaires&nbsp;préparés.<br>
+-&nbsp;title&nbsp;:&nbsp;Le&nbsp;titre&nbsp;de&nbsp;la&nbsp;catégorie.</tt></dd></dl>
+ <dl><dt><a name="-tableau"><strong>tableau</strong></a>(data)</dt><dd><tt>Prépare&nbsp;les&nbsp;graphiques&nbsp;des&nbsp;données&nbsp;continus&nbsp;(float64/int64)<br>
+&nbsp;<br>
+Arguments&nbsp;:<br>
+-&nbsp;data&nbsp;:&nbsp;les&nbsp;données&nbsp;en&nbsp;format&nbsp;json.&nbsp;<br>
+&nbsp;<br>
+Retourne&nbsp;:<br>
+-&nbsp;plots&nbsp;:&nbsp;Les&nbsp;graphes&nbsp;en&nbsp;barre&nbsp;binaires&nbsp;préparés.<br>
+-&nbsp;title&nbsp;:&nbsp;Le&nbsp;titre&nbsp;de&nbsp;la&nbsp;catégorie.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>data</strong> = {'file_properties': {'Missing values': 0, 'Nombre de lignes': 19862, 'date': '11-07-2023', 'file_name': 'Extraction EGIDE - Nombre de formations dispensées - Année scolaire 2020-2021.xlsx'}, 'variables': {'ANNEE': {'extremum': {'earliest_year': 2020, 'latest_year': 2020}, 'missing values': 0, 'type': 'int64'}, 'CD_ETABLISSEMENT_FORMATION': {'&gt;10% appearance': {'1000000G': 42.3}, 'highest appearance': 8402, 'missing_values': 0, 'nbr of highest app': 1, 'type': 'Identifiant', 'unique value': 1086}, 'DT_DEB': {'date format': 'European', 'extremum': {'earliest_date': '01-09-2020', 'latest_date': '23-08-2021'}, 'missing values': 0, 'type': 'datetime64[ns]'}, 'DT_FIN': {'date format': 'European', 'extremum': {'earliest_date': '01-09-2020', 'latest_date': '26-08-2021'}, 'missing values': 0, 'type': 'datetime64[ns]'}, 'DUREE_FORMATION_H': {'missing values': 0, 'missing values percent column': 0.0, 'missing values percent total': 0, 'statistics': {'max': 38772, 'mean': 16.22867787735374, 'min': 1, 'outliers': 1941, 'q1': 3.0, 'q3': 12.0, 'shapiro_pvalue': 0.0, 'shapiro_statistic': 0.011642634868621826, 'std': 296.3178562686742}, 'type': 'int64'}, 'DUREE_FORMATION_J': {'missing values': 0, 'missing values percent column': 0.0, 'missing values percent total': 0, 'statistics': {'max': 6462.0, 'mean': 2.7030435001510416, 'min': 0.16, 'outliers': 1941, 'q1': 0.5, 'q3': 2.0, 'shapiro_pvalue': 0.0, 'shapiro_statistic': 0.0116463303565979, 'std': 49.386352161978444}, 'type': 'float64'}, 'LIBELLE_COURT_MODULE': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'LIBELLE_DISCIPLINE_COMPETENCE': {'&gt;10% appearance': {'NON RENSEIGNE': 17.68}, 'missing_values': 0, 'type': 'object'}, 'LIBELLE_LONG_MODULE': {'&gt;10% appearance': {}, 'missing_values': 0, 'type': 'object'}, 'NB_AGENT': {'missing values': 0, 'missing values percent column': 0.0, 'missing values percent total': 0, 'statistics': {'max': 227, 'mean': 3.474524217097976, 'min': 1, 'outliers': 2198, 'q1': 1.0, 'q3': 3.0, 'shapiro_pvalue': 0.0, 'shapiro_statistic': 0.3154398202896118, 'std': 7.662917234081641}, 'type': 'int64'}, ...}}<br>
+<strong>file</strong> = &lt;_io.TextIOWrapper name='./data/Extraction EGIDE... 2020-2021.xlsx.json' mode='r' encoding='cp1252'&gt;</td></tr></table>
+</body></html>
